@@ -1,0 +1,220 @@
+body {
+    
+    background-color: endened;
+    
+}
+
+/************************************ HEADER **************************************/
+
+header {
+    height: 630px;
+    font-size: 20px;
+    background-image: url(../img/dev.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#menu {
+    background-color: rgb(27, 27, 27);
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+/* Logo */
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Logo */
+
+#foto-perfil {
+    margin: auto;
+    padding-top: 150px;
+}
+
+.img-perfil{
+    max-height: 400px;
+    height: 100%;
+    width: 100%;  
+}
+#secao1 .col-10, .col-md-5 {
+    margin: auto;
+}
+
+.perfil {
+    margin: auto;
+    margin-bottom: 15px;
+    background-image: url(../img/SocialLeandro.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #373737;
+    height: 200px;
+    width: 200px;  
+}
+.nome {
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 20px;
+    color: #e7e7e7;
+    margin: auto;
+    text-align: center;
+}
+.subtitulo {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.col-12 {
+    text-align: center;
+}
+.btn-redes-sociais {
+    color: white;
+    border: 2px solid black;
+    margin-top: 8px;
+    max-width: 180px;
+    width: 100%;
+    font-weight: bold;
+    transition: .3s;
+}
+.btn-redes-sociais:hover {
+    background-color: transparent;
+    border: 2px solid #005f82;
+    color: #005f82;
+    
+
+}
+
+
+/************************************ CONTEUDO **************************************/
+
+#secao1 {
+    background-color: #292e40;
+    height: auto;
+}
+#secao1 i {
+    color: #8c8c8c;
+}
+#secao1 .row{
+    color: #fff;
+}
+.sobre-mim {
+    text-align: center;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+/************************************ PROJETOS **************************************/
+
+#secao2 {
+    background-color: #ededed;
+}
+
+#secao2 .card {
+    margin: auto;
+    max-width: 900px;
+    width: 100%;    
+}
+#secao2 img {
+    max-height: 330px;
+    height: 100%;
+
+}
+
+#secao2 .projeto {
+    margin-top: 90px;
+}
+
+.botao-projeto {
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+} 
+
+/************************************ FOOTER **************************************/
+
+#footer {
+    height: auto;
+    background-color: #292e40;
+    margin-top: 150px;
+}
+#footer p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+/************************************ MEDIA QUERYs **************************************/
+
+@media (min-width:1000px){
+    #secao2 p {
+        font-size: 24px;
+    }  
+}
+@media (max-width:1000px){
+    #secao2 ul {
+        font-size: 10px;
+    }  
+}
+
+@media (min-width:768px){
+    #secao2 .projeto {
+        margin-top: 80px;
+    }
+    #secao2 .projeto1 {
+        margin-top: 80px;
+    }  
+}
+
+@media (max-width:768px){
+    .nome {
+        font-size: 40px;
+    }
+    .subtitulo {
+        font-size: 20px;
+    }
+    .descricao {
+        font-size: 20px;
+    } 
+    header {
+        height: 600px;
+    }
+}
+
+@media (max-width:400px){
+    .nome {
+        font-size: 30px;
+    }
+    .subtitulo {
+        font-size: 20px;
+    }
+    .descricao {
+        font-size: 20px;
+    }
+    .btn-redes-sociais, .botao-projeto {
+        max-width: 150px;
+    }
+}
+
+@media (max-width:305px){
+    .nome {
+        font-size: 25px;
+    }
+    .subtitulo {
+        font-size: 15px;
+    }
+    .descricao {
+        font-size: 15px;
+    }
+}
